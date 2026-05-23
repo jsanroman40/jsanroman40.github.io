@@ -145,12 +145,21 @@
       margin-bottom: 22px;
     }
 
-    h1 {
+    h2 {
       margin: 0;
       font-size: clamp(34px, 5vw, 56px);
       line-height: 1.02;
       letter-spacing: -0.055em;
       color: var(--navy);
+    }
+
+    .hero-tagline {
+      margin: 8px 0 0;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      color: #40506b;
     }
 
     .hero-name {
@@ -555,8 +564,8 @@
     <header class="hero" id="top">
       <div>
         <div class="eyebrow">BI Engineer · Analytics Strategist</div>
-        <p class="hero-name">Julia San Roman</p>
-        <h1>Turning data into decisions.</h1>
+        <h1 class="hero-name">Julia San Roman</h1>
+        <h2 class="hero-tagline">Turning data into decisions.</h2>
         <p class="hero-subtitle">
           I build dashboards, reporting pipelines, KPI frameworks, and semantic layers that help business leaders make better decisions. My strength is bridging <strong>technical data systems</strong> with <strong>executive-level business needs</strong>.
         </p>
@@ -692,6 +701,38 @@
             <span class="tag">Analytics Strategy</span>
           </div>
           <a class="project-link" href="#" target="_blank" rel="noopener">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="case-studies">
+      <div class="section-header">
+        <h2>Analytics case studies</h2>
+        <p>
+          Real-world analytics scenarios demonstrating SQL problem solving, KPI design, funnel analysis, and operational reporting strategy.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Authentication Funnel Analysis</h3>
+          <p>
+            Analyzed customer authentication journeys to identify drop-off points across login, MFA, and successful authentication stages.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Customer Effort Score Metric</h3>
+          <p>
+            Designed a composite customer effort score using interaction friction indicators including transfers, repeat contacts, and long handle times.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Call Journey Analysis</h3>
+          <p>
+            Mapped customer movement through IVR systems, queues, transfers, and resolutions to identify operational bottlenecks and service inefficiencies.
+          </p>
         </article>
       </div>
     </section>
